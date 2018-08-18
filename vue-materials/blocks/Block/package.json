@@ -1,0 +1,36 @@
+{
+  "name": "@vue-materials/block-block",
+  "version": "1.0.0",
+  "description": "test",
+  "author": "jianxingli <593289847@qq.com>",
+  "files": [
+    "src/",
+    "lib/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alibaba/ice"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ice",
+    "vue",
+    "block"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  },
+  "dependencies": {
+    "@vue-materials/basic-container": "^1.0.0",
+    "vue": "^2.5.16"
+  },
+  "blockConfig": {
+    "name": "block",
+    "title": "demo block",
+    "categories": [
+      "信息展示"
+    ],
+    "screenshot": ""
+  }
+}
